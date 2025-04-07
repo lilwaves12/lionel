@@ -28,4 +28,4 @@ jobs:
     steps:
       - name: "player info"
         run: |
-          echo "Le joueur  ${{ inputs.username}} est de niveau  ${{ inputs.level}} et joue un ${{ inputs.choice}}"
+          echo "Le joueur  ${{ inputs.username}} est de niveau  ${{ inputs.level}} et joue un ${{ inputs.class}}"
