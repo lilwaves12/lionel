@@ -1,6 +1,8 @@
 name: say hello
 on:
   push:
+    branches:
+      - demo
    
 jobs:
   say_hello:
